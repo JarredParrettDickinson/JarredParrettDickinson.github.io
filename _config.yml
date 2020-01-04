@@ -22,7 +22,7 @@ url: "https://JarredParrettDickinson.github.io" # the base hostname & protocol f
 permalink: /:categories/:title/
 plainwhite:
   name: Jarred Parrett
-  tagline: Student. Developer. Runner.
+  tagline: Student. Developer.
   date_format: "%b %-d, %Y"
 #  analytics_id: UA-127004425-1
   disqus_shortname: jarredparrett
