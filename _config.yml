@@ -24,7 +24,7 @@ plainwhite:
   name: Jarred Parrett
   tagline: Student. Developer.
   date_format: "%b %-d, %Y"
-#  analytics_id: UA-127004425-1
+  analytics_id: UA-65681717-3
   disqus_shortname: jarredparrett
 
   # generate social links in footer

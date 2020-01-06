@@ -7,11 +7,13 @@ categories: running 100-mile training
 
 Well, this is the first of many to come. In about 85 days, I will be undertaking an effort which even a year ago didn’t even seem possible. It’s a 100-mile race - specifically the [Greenbrier 100](https://ultrasignup.com/register.aspx?did=70284).
 
-![Greenbrier100](/assets/Greenbrier100.png)
+
+<img style="float: left;" src="/assets/Greenbrier100.png">
 
 The journey to this point has been one of what I would call exponential growth. It started a little over a year ago with a spontaneous half-marathon on trail and then escalated to a 50k. The first felt like an accident - like nothing that I would never do again; but, like so many others, it was not long before I signed up for another. That was the [Ironmasters Challenge](https://ironmasterschallenge.com/158-2/) - a grueling 50k and my first experience with distance over a marathon.
 
-![IronMasters](/assets/IronMasters.png)
+
+<img style="float: right;" src="/assets/IronMasters.png">
 
  It was a challenging journey leading up to it from the long training runs to finding the balance between life and training. For much of the time when I was on winter break, training was easy - I had ample time and energy. However, when the return to college came around, it became a different story. Training took a back seat and at some points just dissipated to nothing more than when it was convenient. As the race approached, I knew I was in shape, but there was a lingering question of would I be able to do this? Would I end in a DNF? I was able to, though. I got out there and just kept pushing - mile-by-mile till the end. It wasn’t fast but it was a journey I will never forget.
 
