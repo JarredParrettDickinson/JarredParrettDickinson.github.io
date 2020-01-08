@@ -10,9 +10,9 @@ This caused some anxiety - a question of whether I would find my way back to my 
 
 ## Days till race: 79
 
-#### * Total miles: 53.1
-#### * Longest run: 17.05
-#### * Runs: 6.7, 4.6, 6.8, 10.8, 6.9, 17.05
+ * Total miles: 53.1
+ * Longest run: 17.05
+ * Runs: 6.7, 4.6, 6.8, 10.8, 6.9, 17.05
 
 <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2981738819/embed/867cb261a984394a6d512f201690c805b80a5720'></iframe>
 
