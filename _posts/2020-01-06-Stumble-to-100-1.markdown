@@ -8,7 +8,6 @@ This is week one of the blog and the first week back from being sick over the ho
 
 This caused some anxiety - a question of whether I would find my way back to my pre-sick fitness levels. I kept on it and stayed the course run after run. In this, the struggle was patience, and, if you know me, you know that in things like this I am not the most patient. In the end, however, I made my way back to the pre-sick levels.
 
-## Days till race: 79
 
  * Total miles: 53.1
  * Longest run: 17.05
@@ -16,3 +15,4 @@ This caused some anxiety - a question of whether I would find my way back to my 
 
 <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2981738819/embed/867cb261a984394a6d512f201690c805b80a5720'></iframe>
 
+## Days till race: 79
