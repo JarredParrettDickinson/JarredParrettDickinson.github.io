@@ -4,15 +4,15 @@ title:  "Stumble to 100 - 1"
 date:   2020-01-06 11:15:00 -0500
 categories: running 100-mile training
 ---
-## Days till race: 79
-
 This is week one of the blog and the first week back from being sick over the holidays. Being sick over Christmas and New Years wasn't a fun time and took its toll. As for what I was sick with, it seemed to be a virus: symptoms included a 101+ fever, congestion and a headache. In the training days following, I found each run to be a grueling effort. With even the least amount of effort, my heart rate was driven up to that of something much faster than I would expect when I was healthy at that pace. At times, I struggled to maintain any momentum.
 
 This caused some anxiety - a question of whether I would find my way back to my pre-sick fitness levels. I kept on it and stayed the course run after run. In this, the struggle was patience, and, if you know me, you know that in things like this I am not the most patient. In the end, however, I made my way back to the pre-sick levels.
 
-* Total miles: 53.1
-* Longest run: 17.05
-* Runs: 6.7, 4.6, 6.8, 10.8, 6.9, 17.05
+## Days till race: 79
+
+#### * Total miles: 53.1
+#### * Longest run: 17.05
+#### * Runs: 6.7, 4.6, 6.8, 10.8, 6.9, 17.05
 
 <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2981738819/embed/867cb261a984394a6d512f201690c805b80a5720'></iframe>
 
