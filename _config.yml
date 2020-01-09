@@ -52,8 +52,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-# Comments
- comments:
-   provider: disqus
- disqus: 
-   short_name: jarred
+
