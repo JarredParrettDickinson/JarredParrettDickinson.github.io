@@ -9,7 +9,8 @@ I guess this one is better late than never. Here is a blog post for week 2 comin
 
 While difficult, it was still a productive week with the opportunity to actually get out on the race trail. Using a GPX from a previous race, I managed to construct a map of the course to run when I was passing through Maryland. It was a cold one but a good exposure to the course. Takeaways from it were: manage climbs by just keep churning, I can probably get through a loop with just a handheld and the conditions are going to be their own challenge - it could be spring-like, cold or even snowing. Anyway, this is the map of it.
 
-![GB](/assets/gb_7mile.jpg)
+<img style="float: right;" src="/assets/gb_7mile.jpg">
+
 
 Training wise: it was a great week! I ran in everything from 75 degrees in NC to 4 degrees in CT. Each new environment had its own set of challenges but was rewarding all the same. The build continues.
 
