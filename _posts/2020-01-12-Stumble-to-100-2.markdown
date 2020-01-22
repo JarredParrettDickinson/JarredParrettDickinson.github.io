@@ -18,6 +18,6 @@ Total miles: 59.4
 Longest run: 20.06
 Runs: 7, 7, 7.1, 10.4, 7.2, 20.6
 
-<iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/131106/latest-rides/61a90243c5fa4b459996c4593d993eee2ffbbe0e'></iframe>
+<iframe height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/131106/activity-summary/61a90243c5fa4b459996c4593d993eee2ffbbe0e'></iframe>
 
 Days till race: 75
