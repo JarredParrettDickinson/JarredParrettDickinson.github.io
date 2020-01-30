@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Introduction To Ethics"
+date:   2020-01-30 11:15:00 -0500
+categories: seminar ethics reflection cybersecurity
+---
+
+In the recent seminar discussion, we dove into the dense and difficult topic of ethical components of the computer science major and industry. These things included everything from the alteration of search results to the active creation of worms for the greater good of the internet. While these do include many of the topics, there was, perhaps, one that was glanced over significantly. That is the topic of cybersecurity. 
+
+Cybersecurity is a space where, with the knowledge of a computer science major, there is an array of exploits and tools which may be weld to perpetrate attacks on vulnerable targets. Further, with the ability to use systems like Kali Linux, a malicious actor can easily conduct everything from a comprehensive SQL injection attack to DOS attacks. 
+
+This raises the question, what is the ethical responsibility of those who possess this knowledge. Recently, a Cybersecurity channel on YouTube - [Null Byte](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g). - that I subscribe to was informed by YouTube that their informational videos describing vulnerability exploits on particular systems were a violation of community guidelines. This ban extends beyond the realm of Null Byte in that it impacted a consortium of cybersecurity creators. So, there stands a question: has YouTube made the wrong decision by banning these videos and is it their responsibility to enforce the rules on the content of this type. 
+
+While this question is verbose and will likely be debated in the eyes of courts and legislatures for years to come, I would like to offer a meditation on the topic. YouTube today, as it stands, about one-seventh of the world population uses the service. This, to me, raises a question: could this ubiquitous service be considered somewhat of a public utility at some point? I don't mean to err too close to the conversation of nationalizing the platform - rather, I wonder is there, perhaps, a better way to institute rule changes. Could the founders of the nation even comprehend a concept like this when establishing the country? Sadly, I cannot say here, but I look forward to following this in the years to come. 
