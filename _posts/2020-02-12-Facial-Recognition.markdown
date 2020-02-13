@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Facial Recognition: a biased comparison"
-date:   2020-01-12 11:15:00 -0500
+date:   2020-02-12 11:15:00 -0500
 categories: seminar facial-recognition reflection 
 ---
 
