@@ -44,4 +44,4 @@ Having been fortunate enough to study both Computer Science and Economics at Dic
 > withdrawn from them and, as will be seen, exacerbated vulnerabilities
 > during the GR.
 
-This is only a singular example of what may be considered when properly vetting systems. However, it stands as necessary questions if we are to aim to make ethical and social decisions on the lives of people.
+By the process explained in the above excerpt, communities of color were repeatedly excluded from necessary opportunities for social gain. Further, if the social theories are based on communities that have been subjected to these exclusions, are they not building a culture that reinforces them? This is only a singular example of what may be considered when properly vetting systems. However, it stands as necessary questions if we are to aim to make ethical and social decisions on the lives of people.
