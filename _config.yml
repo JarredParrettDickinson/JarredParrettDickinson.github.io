@@ -35,7 +35,7 @@ plainwhite:
     # rss: rss
 # Build settings
 markdown: kramdown
-remote_theme: plainwhite
+remote_theme: thelehhman/plainwhite-jekyll
 show_excerpts: true
 plugins:
   - jekyll-feed
