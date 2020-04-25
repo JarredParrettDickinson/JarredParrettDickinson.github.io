@@ -116,7 +116,7 @@ For my analysis, I will begin by taking a global look at the airnetwork of the U
 ## General Statistics
 A relatively intuitive starting point is to begin the analysis of the flight data by simply looking at the arrival and departure data for each airport. In the below figures, you can find the histograms for the variables of arrival and departure delay - note, the dataset conviently bins these variables into 15 minute sections to make plotting on historgram easy. It can be seen that the majority of time flights actually take off eariler than their CRS departure time. Futher, these flights will arrive earlier than expected on the destination side as well.
 #### figure 1
-![US_ARR_DEP_DELAY](DEP_ARR_DELAY_GROUP.png)
+![US_ARR_DEP_DELAY](/assets/DEP_ARR_DELAY_GROUP.png)
 
 This data begins the process of understanding the data but can, in fact, be presented in a more dynamic fashion. That is, a delay will not be as taxing on the network if it occurs at a relatively small airport as comparted to a large one. The below interactive figure provides the data in the above histograms with the additon of a the perspective of the airports percentage of flgiht traffic as the color and size being mean delay at that airport.
 
