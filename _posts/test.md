@@ -112,3 +112,17 @@ As this is a list of flights, the frame of analysis appears to be relatively res
 By iterating over the dataset and identifying all unique airports and building a collection of nodes and then using all unique flight paths - that is an origin to destination - a graph may be constructed. Through the use of tools such as [NetworkX](https://networkx.github.io/ "NetworkX") - “NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.” - additional traits may be examined such as degree centrality, clustering coefficient, congestion, and more.
 
 For my analysis, I will begin by taking a global look at the airnetwork of the United States and further narrowing down on carrier networks and finally visiting the traits of individual aircraft. This document will contain some pseudo code for the purpose that it is a computer scinence blog. While this will exmine the data, it is by no means a completely a comprehensive coverage and I encougage anyone interested to reach out for conversation and further exploration.
+
+## General Statistics
+A relatively intuitive starting point is to begin the analysis of the flight data by simply looking at the arrival and departure data for each airport. In the below figures, you can find the histograms for the variables of arrival and departure delay - note, the dataset conviently bins these variables into 15 minute sections to make plotting on historgram easy. It can be seen that the majority of time flights actually take off eariler than their CRS departure time. Futher, these flights will arrive earlier than expected on the destination side as well.
+#### figure 1
+//image
+
+This data begins the process of understanding the data but can, in fact, be presented in a more dynamic fashion. That is, a delay will not be as taxing on the network if it occurs at a relatively small airport as comparted to a large one. The below interactive figure provides the data in the above histograms with the additon of a the perspective of the airports percentage of flgiht traffic as the color and size being mean delay at that airport.
+
+#### figure 2
+//html
+//html
+
+This may be a relatively counterintuitive idea at this point as we are analyzing these as individuals and not as a network. As this analysis is continued, it will become appearnent that the delay at Atlanta will then reverberate to the next airport given the aircraft link these two nodes.
+
