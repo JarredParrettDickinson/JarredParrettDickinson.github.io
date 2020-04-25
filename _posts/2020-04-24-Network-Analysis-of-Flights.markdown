@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Network Analysis of 2010 US Flights -  Applied Empirical Analysis of Data"
+date:   2020-04-24 3:44:00 -0500
+categories: Applied Empirical Analysis of Data
+---
 # Network Analysis of 2010 US Flights -  Applied Empirical Analysis of Data
 
 ## Data
