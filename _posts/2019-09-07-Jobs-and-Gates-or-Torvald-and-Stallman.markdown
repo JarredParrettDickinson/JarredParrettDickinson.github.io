@@ -10,8 +10,14 @@ I find myself in awe at how they managed to have such significant forethought in
 ## Sample Title
 {% include figure.html %}{% include figure.html %}
 <details>
-<summary>How do I dropdown?</summary>
+<summary>BTS variables</summary>
 <br>
-This is how you dropdown.
+- Time Period
+-- Year: Year
+-- Quarter: Quarter (1-4)
+-- Month: Month
+-- DayofMonth: Day of Month
+-- DayOfWeek: Day of Week
+-- FlightDate: Flight Date (yyyymmdd)
 <br><br>
 </details>
