@@ -8,16 +8,22 @@ In a time where large firms are constantly competing to raise their bottom line 
 
 I find myself in awe at how they managed to have such significant forethought in a time of rapid development and a chance for tech fortunes. When one examines the historical leaders of the tech world, it is easy to look to Jobs, Gates and other magnates, but, perhaps the contributions of thought by community members like Torvald and Stallman dwarf that of them. This dichotomy follows the reading on the Cathedral and Bazaar as one can compare the contributions of Stallman and Torvald to that of the Bazaar approach while the notable tech giants are those of the Cathedral.
 ## Sample Title
-{% include figure.html %}{% include figure.html %}
+
 <details>
 <summary>BTS variables</summary>
 <br>
-- Time Period
--- Year: Year
--- Quarter: Quarter (1-4)
--- Month: Month
--- DayofMonth: Day of Month
--- DayOfWeek: Day of Week
--- FlightDate: Flight Date (yyyymmdd)
+<ul>
+<li>Time Period</li>
+<ul>
+<li>Year: Year</li>
+<li>Quarter: Quarter (1-4)</li>
+<li>Month: Month</li>
+<li>DayofMonth: Day of Month</li>
+<li>DayOfWeek: Day of Week</li>
+<li>FlightDate: Flight Date (yyyymmdd)</li>
+</ul>
+</ul>
+{% include figure.html %}
 <br><br>
 </details>
+
