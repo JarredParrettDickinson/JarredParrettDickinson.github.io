@@ -10,7 +10,7 @@ I find myself in awe at how they managed to have such significant forethought in
 ## Sample Title
 
 <details>
-<summary>BTS variables</summary>
+<summary>BTS VAr</summary>
 <br>
 <ul>
 <li>Time Period</li>
@@ -83,3 +83,24 @@ I find myself in awe at how they managed to have such significant forethought in
 <br><br>
 </details>
 
+<details>
+<summary>OpenFlights Variables</summary>
+<br>
+<ul>
+<li>Airport ID: Unique OpenFlights identifier for this airport.</li>
+<li>Name: Name of airport. May or may not contain the City name.</li>
+<li>City: Main city served by airport. May be spelled differently from Name.</li>
+<li>Country: Country or territory where airport is located. See Countries to cross-reference to ISO 3166-1 codes.</li>
+<li>IATA: 3-letter IATA code. Null if not assigned/unknown.</li>
+<li>ICAO: 4-letter ICAO code.</li>
+<li>Latitude: Decimal degrees, usually to six significant digits. Negative is South, positive is North.</li>
+<li>Longitude: Decimal degrees, usually to six significant digits. Negative is West, positive is East.</li>
+<li>Altitude: In feet.</li>
+<li>Timezone: Hours offset from UTC. Fractional hours are expressed as decimals, eg. India is 5.5.</li>
+<li>DST	Daylight savings time. One of E (Europe), A (US/Canada), S (South America), O (Australia), Z (New Zealand), N (None) or U (Unknown). See also: Help: Time</li>
+<li>Tz database time zone: Timezone in "tz" (Olson) format, eg. "America/Los_Angeles".</li>
+<li>Type: Type of the airport. Value "airport" for air terminals, "station" for train stations, "port" for ferry terminals and "unknown" if not known. In airports.csv, only type=airport is included.</li>
+<li>Source: Source of this data. "OurAirports" for data sourced from OurAirports, "Legacy" for old data not matched to OurAirports (mostly DAFIF), "User" for unverified user contributions. In airports.csv, only source=OurAirports is included.</li>
+</ul>
+ <br><br>
+</details>
