@@ -121,8 +121,8 @@ A relatively intuitive starting point is to begin the analysis of the flight dat
 This data begins the process of understanding the data but can, in fact, be presented in a more dynamic fashion. That is, a delay will not be as taxing on the network if it occurs at a relatively small airport as comparted to a large one. The below interactive figure provides the data in the above histograms with the additon of a the perspective of the airports percentage of flgiht traffic as the color and size being mean delay at that airport.
 
 #### figure 2
-//html
-//html
+{% include US_ARR_MAP.html %}{% include US_DEP_MAP.html %}
+
 
 This may be a relatively counterintuitive idea at this point as we are analyzing these as individuals and not as a network. As this analysis is continued, it will become appearnent that the delay at Atlanta will then reverberate to the next airport given the aircraft link these two nodes.
 
