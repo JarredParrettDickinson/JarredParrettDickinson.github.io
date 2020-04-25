@@ -54,6 +54,30 @@ I find myself in awe at how they managed to have such significant forethought in
 <li>DestStateName: Destination Airport, State Name		</li>
 <li>DestWa: Destination Airport, World Area Code</li>
 </ul>
+<li>Departure Performance			</li>
+<ul>
+<li>CRSDepTime: CRS Departure Time (local time: hhmm)		</li>
+<li>DepTime: Actual Departure Time (local time: hhmm)		</li>
+<li>DepDelay: Difference in minutes between scheduled and actual departure time. Early departures show negative numbers.		</li>
+<li>DepDelayMinutes: Difference in minutes between scheduled and actual departure time. Early departures set to 0.		</li>
+<li>DepDel15: Departure Delay Indicator, 15 Minutes or More (1=Yes)		</li>
+<li>DepartureDelayGroups: Departure Delay intervals, every (15 minutes from <-15 to >180)		</li>
+<li>DepTimeBlk: CRS Departure Time Block, Hourly Intervals		</li>
+<li>TaxiOut: Taxi Out Time, in Minutes		</li>
+<li>WheelsOff: Wheels Off Time (local time: hhmm)</li>
+</ul>
+<li>Arrival Performance			</li>
+<ul>
+<li>WheelsOn: Wheels On Time (local time: hhmm)		</li>
+<li>TaxiIn: Taxi In Time, in Minutes		</li>
+<li>CRSArrTime: CRS Arrival Time (local time: hhmm)		</li>
+<li>ArrTime: Actual Arrival Time (local time: hhmm)		</li>
+<li>ArrDelay: Difference in minutes between scheduled and actual arrival time. Early arrivals show negative numbers.		</li>
+<li>ArrDelayMinutes: Difference in minutes between scheduled and actual arrival time. Early arrivals set to 0.		</li>
+<li>ArrDel15: Arrival Delay Indicator, 15 Minutes or More (1=Yes)		</li>
+<li>ArrivalDelayGroups: Arrival Delay intervals, every (15-minutes from <-15 to >180)		</li>
+<li>ArrTimeBlk: CRS Arrival Time Block, Hourly Intervals</li>
+</ul>
 </ul>
 {% include figure.html %}
 <br><br>
