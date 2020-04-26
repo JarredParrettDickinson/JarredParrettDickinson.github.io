@@ -194,6 +194,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 16.3569
 - Mean Weather Delay: 2.3706
 - Mean Late Aircraft Delay: 21.2091
+- R-Squared traffic x centrentality: .88
 
 {% include  graph_carrier_stats_a.html %}
 {% include  graph_carrier_stats_be.html %}
@@ -205,7 +206,9 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Dep Delay: 7.2538
 - Mean Carrier Delay: 19.2087
 - Mean Weather Delay: 2.5398
-- Mean Late Aircraft Delay: 19.6674<br />
+- Mean Late Aircraft Delay: 19.6674
+- R-Squared traffic x centrentality: .88
+
 
 
 **Centrality x Traffic**  
@@ -220,6 +223,8 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 20.1099
 - Mean Weather Delay: 3.6168
 - Mean Late Aircraft Delay: 17.2126
+- R-Squared traffic x centrentality: .77
+
 
 
 **Centrality x Traffic**  
@@ -234,6 +239,8 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 15.1059
 - Mean Weather Delay: 1.8455
 - Mean Late Aircraft Delay: 16.1838
+- R-Squared traffic x centrentality: .92
+
 
 
 **Centrality x Traffic**  
@@ -249,6 +256,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
  - Mean Carrier Delay: 21.1683
  - Mean Weather Delay: 1.2981
  - Mean Late Aircraft Delay: 21.7439
+ - R-Squared traffic x centrentality: .96
  
  
 **Centrality x Traffic**  
@@ -264,6 +272,8 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 14.7957
 - Mean Weather Delay: 2.3685
 - Mean Late Aircraft Delay: 11.7919
+- R-Squared traffic x centrentality: .96
+
 
 
 **Centrality x Traffic**  
@@ -279,6 +289,8 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 19.475
 - Mean Weather Delay: 2.549
 - Mean Late Aircraft Delay: 17.2881
+- R-Squared traffic x centrentality: .88
+
 
 
 **Centrality x Traffic**  
@@ -294,6 +306,8 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 15.95
 - Mean Weather Delay: 4.0574
 - Mean Late Aircraft Delay: 20.1839
+- R-Squared traffic x centrentality: .97
+
 
 
 **Centrality x Traffic**  
@@ -309,6 +323,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 26.9148
 - Mean Weather Delay: 6.8779
 - Mean Late Aircraft Delay: 4.4049
+- R-Squared traffic x centrentality: .72
 
 
 **Centrality x Traffic**  
@@ -324,6 +339,9 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 12.4105
 - Mean Weather Delay: 1.3412
 - Mean Late Aircraft Delay: 27.8823
+- R-Squared traffic x centrentality: .817
+
+
 **Centrality x Traffic**  
 {% include  centrality_SkyWest_Airlines.html %}
 {% include  route_SkyWest_Airlines.html %}
@@ -337,6 +355,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 14.5705
 - Mean Weather Delay: 1.709
 - Mean Late Aircraft Delay: 25.0573
+- R-Squared traffic x centrentality: .95
 
 
 **Centrality x Traffic**  
@@ -352,6 +371,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 13.8995
 - Mean Weather Delay: 1.5026
 - Mean Late Aircraft Delay: 14.4317
+- R-Squared traffic x centrentality: .97
 
 
 **Centrality x Traffic**  
@@ -367,6 +387,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 12.939
 - Mean Weather Delay: 1.7841
 - Mean Late Aircraft Delay: 25.3732
+- R-Squared traffic x centrentality: .85
 
 
 **Centrality x Traffic**  
@@ -382,6 +403,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
  - Mean Carrier Delay: 19.53
  - Mean Weather Delay: 2.4514
  - Mean Late Aircraft Delay: 21.5251
+ - R-Squared traffic x centrentality: .72
  
  
 **Centrality x Traffic**  
@@ -397,6 +419,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 13.6902
 - Mean Weather Delay: 1.9729
 - Mean Late Aircraft Delay: 21.8362
+- R-Squared traffic x centrentality: .84
 
 
 **Centrality x Traffic**  
@@ -412,6 +435,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 10.6675
 - Mean Weather Delay: 0.8233
 - Mean Late Aircraft Delay: 24.1998
+- R-Squared traffic x centrentality: .95
 
 
 **Centrality x Traffic**  
@@ -426,6 +450,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 10.0695
 - Mean Weather Delay: 0.8456
 - Mean Late Aircraft Delay: 28.8182
+- R-Squared traffic x centrentality: .83
 
 
 **Centrality x Traffic**  
@@ -440,6 +465,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 31.7755
 - Mean Weather Delay: 0.2989
 - Mean Late Aircraft Delay: 10.9867
+- R-Squared traffic x centrentality: .88
 
 
 **Centrality x Traffic**  
