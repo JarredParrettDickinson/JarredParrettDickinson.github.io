@@ -159,6 +159,10 @@ Using the NetworkX library, the degree centrality may be found by finding the va
 
 {% include US_CT_MAP.html %}
 
+The positive relation between the two metrics may be seen with the additional plottin below with trendline. 
+#### figure 4
+{% include CT_PCT.html %}
+
 #### Paritions and Center
 The partition of a graph can provide a peprsepctive which may better identify the significane of airports. That is, there are paritions within the graph such as the Alaska paritions which may distort what the center of a graph looks like. Note the paprtitions below demonstrate there is an Alaskan partition of airports, partition 2 and 3,  which are highly connected sections. While relevant to the overall graph, when considering the amount of travel on the Alaskan partitions, a questions may be asked if they are that important. With this partition included, it resulted in **Seattle-Tacoma International Airport** being the center of the network.
 - partition 1: 
