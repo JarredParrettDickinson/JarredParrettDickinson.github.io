@@ -178,3 +178,10 @@ When we remove partition 3, Alaska, the resulting center becomes **Denver Intern
 #### Takeaways
 In the two previous sections, much has been discussed from concepts of graphs to the applications of them to networks. It has been established that there are metrics by which we may measure the same things as percentage of traffic within a network by adopting centrality -  with a .88 r-squared. Further, with the discussion of partitions and center, the application of centrality finds relevance with the high value of Denver as compared to Seattle. This leads to further evidence that the main partition, as expected, is the lower-48.
 
+## Network Analysis on SubNetworks - Carriers
+As seen up to this point, network analysis may be applied to the entire US flight network. However, when considering practical applications, this may not be the best approach as flight carriers may not be interested in this information as they only server specific markets. To combat this, the same tools may be applied to subnetworks which are subsets of the dataset.
+
+Within the dataset, there are 18 unique carriers each with their own interconnected networks. 
+
+{% include /carrier dep delay/AirTran Airways Corporation (1994 - 2014).html %}
+
