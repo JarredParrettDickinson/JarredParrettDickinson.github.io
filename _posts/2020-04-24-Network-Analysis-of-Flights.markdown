@@ -155,12 +155,12 @@ When starting with networks, one can lok to the tools of networks to identify th
 
 #### Degree Centrality
 Using the NetworkX library, the degree centrality may be found by finding the value for (edges)/(n-1). To better understand the relation of centrality the following chart provides the scatterplot of centrality measure to percentage of airtraffic at an airport. In figure 3, there is the relation of centrality with size where size is the percent of air traffic and color is the centrality. 
-#### figure 3
+**figure 3** US Centrality Map
 
 {% include US_CT_MAP.html %}
 
 The positive relation between the two metrics may be seen with the additional plottin below with trendline. 
-#### figure 4
+**figure 4** 
 {% include CT_PCT.html %}
 
 #### Paritions and Center
@@ -176,6 +176,6 @@ The partition of a graph can provide a peprsepctive which may better identify th
 
 When we remove partition 3, Alaska, the resulting center becomes **Denver International Airport**.
 
-##### Clustering Coefficient x Degree Centrality
-
+#### Takeaways
+In the two previous sections, much has been discussed from concepts of graphs to the applications of them to networks. It has been established that there are metrics by which we may measure the same things as percentage of traffic within a network by adopting centrality -  with a .88 r-squared. Further, with the discussion of partitions and center, the application of centrality finds relevance with the high value of Denver as compared to Seattle. This leads to further evidence that the main partition, as expected, is the lower-48.
 
