@@ -195,6 +195,9 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Weather Delay: 2.3706
 - Mean Late Aircraft Delay: 21.2091
 
+{% include  graph_carrier_stats_a.html %}
+{% include  graph_carrier_stats_b.html %}
+
 #### Pinnacle Airlines
 - Number of Airports: 147
 - Number of Routes: 781
@@ -203,6 +206,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 19.2087
 - Mean Weather Delay: 2.5398
 - Mean Late Aircraft Delay: 19.6674
+**Centrality x Traffic**
 {% include  centrality_Pinnacle_Airlines.html %}
 {% include  route_Pinnacle_Airlines.html %}
 
@@ -214,6 +218,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 20.1099
 - Mean Weather Delay: 3.6168
 - Mean Late Aircraft Delay: 17.2126
+**Centrality x Traffic**
 {% include  centrality_American_Airlines.html %}
 {% include  route_American_Airlines.html %}
 
@@ -237,6 +242,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
  - Mean Carrier Delay: 21.1683
  - Mean Weather Delay: 1.2981
  - Mean Late Aircraft Delay: 21.7439
+**Centrality x Traffic**
 {% include  centrality_JetBlue_Airways.html %}
 {% include  route_JetBlue_Airways.html %}
 
@@ -249,6 +255,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 14.7957
 - Mean Weather Delay: 2.3685
 - Mean Late Aircraft Delay: 11.7919
+**Centrality x Traffic**
 {% include  centrality_Continental_Air_Lines.html  %}
 {% include  route_Continental_Air_Lines.html %}
 
@@ -261,6 +268,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 19.475
 - Mean Weather Delay: 2.549
 - Mean Late Aircraft Delay: 17.2881
+**Centrality x Traffic**
 {% include  centrality_Delta_Air_Lines.html %}
 {% include  route_Delta_Air_Lines.html %}
 
@@ -273,6 +281,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 15.95
 - Mean Weather Delay: 4.0574
 - Mean Late Aircraft Delay: 20.1839
+**Centrality x Traffic**
 {% include  centrality_American_Eagle_Airlines.html %}
 {% include  route_American_Eagle_Airlines.html %}
 
@@ -285,6 +294,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 26.9148
 - Mean Weather Delay: 6.8779
 - Mean Late Aircraft Delay: 4.4049
+**Centrality x Traffic**
 {% include  centrality_PSA_Airlines.html %}
 {% include  route_PSA_Airlines.html %}
 
@@ -297,6 +307,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 12.4105
 - Mean Weather Delay: 1.3412
 - Mean Late Aircraft Delay: 27.8823
+**Centrality x Traffic**
 {% include  centrality_SkyWest_Airlines.html %}
 {% include  route_SkyWest_Airlines.html %}
 
@@ -309,6 +320,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 14.5705
 - Mean Weather Delay: 1.709
 - Mean Late Aircraft Delay: 25.0573
+**Centrality x Traffic**
 {% include  centrality_United_Air_Lines.html %}
 {% include  route_United_Air_Lines.html %}
 
@@ -321,6 +333,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 13.8995
 - Mean Weather Delay: 1.5026
 - Mean Late Aircraft Delay: 14.4317
+**Centrality x Traffic**
 {% include  centrality_US_Airways.html %}
 {% include  route_US_Airways.html %}
 
@@ -333,6 +346,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 12.939
 - Mean Weather Delay: 1.7841
 - Mean Late Aircraft Delay: 25.3732
+**Centrality x Traffic**
 {% include  centrality_Southwest_Airlines.html %}
 {% include  route_Southwest_Airlines.html %}
 
@@ -345,6 +359,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
  - Mean Carrier Delay: 19.53
  - Mean Weather Delay: 2.4514
  - Mean Late Aircraft Delay: 21.5251
+ **Centrality x Traffic**
 {% include  centrality_Mesa_Airlines.html %}
 {% include  route_Mesa_Airlines.html %}
 
@@ -357,6 +372,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 13.6902
 - Mean Weather Delay: 1.9729
 - Mean Late Aircraft Delay: 21.8362
+**Centrality x Traffic**
 {% include  centrality_ExpressJet_Airlines_06_11.html %}
 {% include  route_ExpressJet_Airlines.html %}
 
@@ -369,6 +385,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 10.6675
 - Mean Weather Delay: 0.8233
 - Mean Late Aircraft Delay: 24.1998
+**Centrality x Traffic**
 {% include  centrality_Frontier_Airlines.html %}
 {% include  route_Frontier_Airlines.html %}
 
@@ -380,6 +397,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 10.0695
 - Mean Weather Delay: 0.8456
 - Mean Late Aircraft Delay: 28.8182
+**Centrality x Traffic**
 {% include  centrality_AirTran_Airways_Corporation.html %}
 {% include  route_AirTran_Airways.html %}
 
@@ -391,6 +409,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 31.7755
 - Mean Weather Delay: 0.2989
 - Mean Late Aircraft Delay: 10.9867
+**Centrality x Traffic**
 {% include  centrality_Hawaiian_Airlines.html %}
 {% include  route_Hawaiian_Airlines.html %}
 
