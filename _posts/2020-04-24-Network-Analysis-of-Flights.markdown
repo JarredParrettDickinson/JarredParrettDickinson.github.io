@@ -120,12 +120,12 @@ By iterating over the dataset and identifying all unique airports and building a
 For my analysis, I will begin by taking a global look at the airnetwork of the United States and further narrowing down on carrier networks and finally visiting the traits of individual aircraft. This document will contain some pseudo code for the purpose that it is a computer scinence blog. While this will exmine the data, it is by no means a completely a comprehensive coverage and I encougage anyone interested to reach out for conversation and further exploration.
 
 ## General Statistics
-A relatively intuitive starting point is to begin the analysis of the flight data by simply looking at the arrival and departure data for each airport. In the below figures, you can find the histograms for the variables of arrival and departure delay - note, the dataset conviently bins these variables into 15 minute sections to make plotting on historgram easy. It can be seen that the majority of time flights actually take off eariler than their CRS departure time. Futher, these flights will arrive earlier than expected on the destination side as well.
+A relatively intuitive starting point is to begin the analysis of the flight data by simply looking at the arrival and departure data for each airport. In the below figures, you can find the histograms for the variables of arrival and departure delay - note, the dataset conviently bins these variables into 15 minute sections to make plotting on historgram easy. It can be seen that the majority of time flights actually take off eariler than their CRS departure time. Futher, these flights will arrive earlier than expected on the destination side as well.  
 <br />
 **figure 1: Departure and Arrival Histogram**
 ![US_ARR_DEP_DELAY](/assets/DEP_ARR_DELAY_GROUP.png)
 
-This data begins the process of understanding the data but can, in fact, be presented in a more dynamic fashion. That is, a delay will not be as taxing on the network if it occurs at a relatively small airport as comparted to a large one. The below interactive figure provides the data in the above histograms with the additon of a the perspective of the airports percentage of flgiht traffic as the color and size being mean delay at that airport.
+This data begins the process of understanding the data but can, in fact, be presented in a more dynamic fashion. That is, a delay will not be as taxing on the network if it occurs at a relatively small airport as comparted to a large one. The below interactive figure provides the data in the above histograms with the additon of a the perspective of the airports percentage of flgiht traffic as the color and size being mean delay at that airport.  
 <br />
 **figure 2a: US Departure Delay Map**
 {% include US_DEP_MAP.html %}
@@ -158,11 +158,11 @@ When starting with networks, one can lok to the tools of networks to identify th
 Using the NetworkX library, the degree centrality may be found by finding the value for (edges)/(n-1). To better understand the relation of centrality the following chart provides the scatterplot of centrality measure to percentage of airtraffic at an airport. In figure 3, there is the relation of centrality with size where size is the percent of air traffic and color is the centrality. The positive relation between the two metrics may be seen with the additional plotting below - figure 4 - with trendline. 
 
 <br />
-**figure 3** US Centrality Map
+**figure 3** US Centrality Map  
 {% include US_CT_MAP.html %}
 
 <br />
-**figure 4**:Centrality x Percent of Air Traffic
+**figure 4**:Centrality x Percent of Air Traffic  
 {% include CT_PCT.html %}
 
 #### Paritions and Center
@@ -206,7 +206,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 19.2087
 - Mean Weather Delay: 2.5398
 - Mean Late Aircraft Delay: 19.6674
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_Pinnacle_Airlines.html %}
 {% include  route_Pinnacle_Airlines.html %}
 
@@ -218,7 +218,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 20.1099
 - Mean Weather Delay: 3.6168
 - Mean Late Aircraft Delay: 17.2126
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_American_Airlines.html %}
 {% include  route_American_Airlines.html %}
 
@@ -230,6 +230,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 15.1059
 - Mean Weather Delay: 1.8455
 - Mean Late Aircraft Delay: 16.1838
+**Centrality x Traffic**  
 {% include  centrality_Alaska_Airlines.html %}
 {% include  route_Alaska_Airlines.html %}
 
@@ -242,7 +243,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
  - Mean Carrier Delay: 21.1683
  - Mean Weather Delay: 1.2981
  - Mean Late Aircraft Delay: 21.7439
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_JetBlue_Airways.html %}
 {% include  route_JetBlue_Airways.html %}
 
@@ -255,7 +256,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 14.7957
 - Mean Weather Delay: 2.3685
 - Mean Late Aircraft Delay: 11.7919
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_Continental_Air_Lines.html  %}
 {% include  route_Continental_Air_Lines.html %}
 
@@ -268,7 +269,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 19.475
 - Mean Weather Delay: 2.549
 - Mean Late Aircraft Delay: 17.2881
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_Delta_Air_Lines.html %}
 {% include  route_Delta_Air_Lines.html %}
 
@@ -281,7 +282,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 15.95
 - Mean Weather Delay: 4.0574
 - Mean Late Aircraft Delay: 20.1839
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_American_Eagle_Airlines.html %}
 {% include  route_American_Eagle_Airlines.html %}
 
@@ -294,7 +295,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 26.9148
 - Mean Weather Delay: 6.8779
 - Mean Late Aircraft Delay: 4.4049
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_PSA_Airlines.html %}
 {% include  route_PSA_Airlines.html %}
 
@@ -307,7 +308,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 12.4105
 - Mean Weather Delay: 1.3412
 - Mean Late Aircraft Delay: 27.8823
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_SkyWest_Airlines.html %}
 {% include  route_SkyWest_Airlines.html %}
 
@@ -320,7 +321,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 14.5705
 - Mean Weather Delay: 1.709
 - Mean Late Aircraft Delay: 25.0573
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_United_Air_Lines.html %}
 {% include  route_United_Air_Lines.html %}
 
@@ -333,7 +334,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 13.8995
 - Mean Weather Delay: 1.5026
 - Mean Late Aircraft Delay: 14.4317
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_US_Airways.html %}
 {% include  route_US_Airways.html %}
 
@@ -346,7 +347,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 12.939
 - Mean Weather Delay: 1.7841
 - Mean Late Aircraft Delay: 25.3732
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_Southwest_Airlines.html %}
 {% include  route_Southwest_Airlines.html %}
 
@@ -359,7 +360,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
  - Mean Carrier Delay: 19.53
  - Mean Weather Delay: 2.4514
  - Mean Late Aircraft Delay: 21.5251
- **Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_Mesa_Airlines.html %}
 {% include  route_Mesa_Airlines.html %}
 
@@ -372,7 +373,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 13.6902
 - Mean Weather Delay: 1.9729
 - Mean Late Aircraft Delay: 21.8362
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_ExpressJet_Airlines_06_11.html %}
 {% include  route_ExpressJet_Airlines.html %}
 
@@ -385,7 +386,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 10.6675
 - Mean Weather Delay: 0.8233
 - Mean Late Aircraft Delay: 24.1998
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_Frontier_Airlines.html %}
 {% include  route_Frontier_Airlines.html %}
 
@@ -397,7 +398,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 10.0695
 - Mean Weather Delay: 0.8456
 - Mean Late Aircraft Delay: 28.8182
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_AirTran_Airways_Corporation.html %}
 {% include  route_AirTran_Airways.html %}
 
@@ -409,7 +410,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Carrier Delay: 31.7755
 - Mean Weather Delay: 0.2989
 - Mean Late Aircraft Delay: 10.9867
-**Centrality x Traffic**
+**Centrality x Traffic**  
 {% include  centrality_Hawaiian_Airlines.html %}
 {% include  route_Hawaiian_Airlines.html %}
 
