@@ -147,6 +147,7 @@ As stated above, it can be difficult to understanding the interconnected nature 
 <li>Center: A vertex is central in G if its greatest distance from any other vertex is as small as possible </li>
 <li>Clustering Coefficient: clustering coefficient is a measure of the degree to which nodes in a graph tend to cluster together.</li>
 <li>Partition: the reduction of a graph to a smaller graph by partitioning its set of nodes into mutually exclusive groups</li>
+ <li>{% include US_CT_MAP.html %}</li>
 </ul>
  <br><br>
 </details>
