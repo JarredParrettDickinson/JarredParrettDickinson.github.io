@@ -154,13 +154,12 @@ As stated above, it can be difficult to understanding the interconnected nature 
 When starting with networks, one can lok to the tools of networks to identify the importance of measures such as degree, center, and clustering coefficient. The questions that will be asked are what is the center of the graph, what is the most important node within the graph, are there any partitions, what is the clustering coefficient for nodes as related to degree centrality.
 
 #### Degree Centrality
-Using the NetworkX library, the degree centrality may be found by finding the value for (edges)/(n-1). To better understand the relation of centrality the following chart provides the scatterplot of centrality measure to percentage of airtraffic at an airport. In figure 3, there is the relation of centrality with size where size is the percent of air traffic and color is the centrality. 
+Using the NetworkX library, the degree centrality may be found by finding the value for (edges)/(n-1). To better understand the relation of centrality the following chart provides the scatterplot of centrality measure to percentage of airtraffic at an airport. In figure 3, there is the relation of centrality with size where size is the percent of air traffic and color is the centrality. The positive relation between the two metrics may be seen with the additional plotting below - figure 4 - with trendline. 
 <br>**figure 3** US Centrality Map
 
 {% include US_CT_MAP.html %}
 
-The positive relation between the two metrics may be seen with the additional plottin below with trendline. 
-<br>**figure 4** 
+<br>**figure 4**:Centrality x Percent of Air Traffic
 {% include CT_PCT.html %}
 
 #### Paritions and Center
