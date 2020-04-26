@@ -185,5 +185,9 @@ As seen up to this point, network analysis may be applied to the entire US fligh
 
 Within the dataset, there are 18 unique carriers each with their own interconnected networks. 
 
+<div class="toggle-hide">
+## Hidden section
 {% include US_Airways_Inc_carrier_dep_delay.html %}
+A hidden paragraph.
+</div>
 
