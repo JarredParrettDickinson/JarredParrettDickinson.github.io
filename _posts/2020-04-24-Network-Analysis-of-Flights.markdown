@@ -183,5 +183,5 @@ As seen up to this point, network analysis may be applied to the entire US fligh
 
 Within the dataset, there are 18 unique carriers each with their own interconnected networks. 
 
-{% include /carrier dep delay/AirTran Airways Corporation (1994 - 2014).html %}
+{% include AirTran Airways Corporation (1994 - 2014)carrier dep delay.html %}
 
