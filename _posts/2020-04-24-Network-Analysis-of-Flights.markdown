@@ -184,11 +184,213 @@ In the two previous sections, much has been discussed from concepts of graphs to
 ## Network Analysis on SubNetworks - Carriers
 As seen up to this point, network analysis may be applied to the entire US flight network. However, when considering practical applications, this may not be the best approach as flight carriers may not be interested in this information as they only server specific markets. To combat this, the same tools may be applied to subnetworks which are subsets of the dataset.
 
-Within the dataset, there are 18 unique carriers each with their own interconnected networks. 
+Within the dataset, there are 18 unique carriers each with their own interconnected networks. For the following analysis, the departure delay and arrival delay metrics have been bypassed in favor of looking into the relation of centrality with percent of network traffic and centrality and mean delay.
 
-<div class="toggle-hide">
-## Hidden section
-{% include US_Airways_Inc_carrier_dep_delay.html %}
-A hidden paragraph.
-</div>
+#### Network Overall
+- Number of Airports: 305
+- Number of Routes: 4622
+- Mean Arr Delay: 4.1021
+- Mean Dep Delay: 8.2613
+- Mean Carrier Delay: 16.3569
+- Mean Weather Delay: 2.3706
+- Mean Late Aircraft Delay: 21.2091
+
+#### Pinnacle Airlines
+- Number of Airports: 147
+- Number of Routes: 781
+- Mean Arr Delay: 3.8666
+- Mean Dep Delay: 7.2538
+- Mean Carrier Delay: 19.2087
+- Mean Weather Delay: 2.5398
+- Mean Late Aircraft Delay: 19.6674
+{% include  centrality_Pinnacle_Airlines.html %}
+{% include  route_Pinnacle_Airlines.html %}
+
+#### American Airlines
+- Number of Airports: 80
+- Number of Routes: 400
+- Mean Arr Delay: 3.8215
+- Mean Dep Delay: 8.7133
+- Mean Carrier Delay: 20.1099
+- Mean Weather Delay: 3.6168
+- Mean Late Aircraft Delay: 17.2126
+{% include  centrality_American_Airlines.html %}
+{% include  route_American_Airlines.html %}
+
+#### Alaska Airlines
+- Number of Airports: 53
+- Number of Routes: 181
+- Mean Arr Delay: -2.3741
+- Mean Dep Delay: 1.3768
+- Mean Carrier Delay: 15.1059
+- Mean Weather Delay: 1.8455
+- Mean Late Aircraft Delay: 16.1838
+{% include  centrality_Alaska_Airlines.html %}
+{% include  route_Alaska_Airlines.html %}
+
+
+#### JetBlue Airways
+ - Number of Airports: 50
+ - Number of Routes: 259
+ - Mean Arr Delay: 6.4605
+ - Mean Dep Delay: 11.5178
+ - Mean Carrier Delay: 21.1683
+ - Mean Weather Delay: 1.2981
+ - Mean Late Aircraft Delay: 21.7439
+{% include  centrality_JetBlue_Airways.html %}
+{% include  route_JetBlue_Airways.html %}
+
+
+#### Continental Airlines
+- Number of Airports: 67
+- Number of Routes: 256
+- Mean Arr Delay: 3.4017
+- Mean Dep Delay: 7.7463
+- Mean Carrier Delay: 14.7957
+- Mean Weather Delay: 2.3685
+- Mean Late Aircraft Delay: 11.7919
+{% include  centrality_Continental_Air_Lines.html  %}
+{% include  route_Continental_Air_Lines.html %}
+
+
+#### Delta Airlines
+- Number of Airports: 135
+- Number of Routes: 854
+- Mean Arr Delay: 5.5136
+- Mean Dep Delay: 9.8842
+- Mean Carrier Delay: 19.475
+- Mean Weather Delay: 2.549
+- Mean Late Aircraft Delay: 17.2881
+{% include  centrality_Delta_Air_Lines.html %}
+{% include  route_Delta_Air_Lines.html %}
+
+
+#### American Eagle Airlines
+- Number of Airports: 139
+- Number of Routes: 436
+- Mean Arr Delay: 6.2021
+- Mean Dep Delay: 8.2594
+- Mean Carrier Delay: 15.95
+- Mean Weather Delay: 4.0574
+- Mean Late Aircraft Delay: 20.1839
+{% include  centrality_American_Eagle_Airlines.html %}
+{% include  route_American_Eagle_Airlines.html %}
+
+
+#### PSA Airlines
+- Number of Airports: 113
+- Number of Routes: 728
+- Mean Arr Delay: 7.4982
+- Mean Dep Delay: 9.7203
+- Mean Carrier Delay: 26.9148
+- Mean Weather Delay: 6.8779
+- Mean Late Aircraft Delay: 4.4049
+{% include  centrality_PSA_Airlines.html %}
+{% include  route_PSA_Airlines.html %}
+
+
+#### SkyWest Airlines
+- Number of Airports: 160
+- Number of Routes: 921
+- Mean Arr Delay: 6.2429
+- Mean Dep Delay: 7.645
+- Mean Carrier Delay: 12.4105
+- Mean Weather Delay: 1.3412
+- Mean Late Aircraft Delay: 27.8823
+{% include  centrality_SkyWest_Airlines.html %}
+{% include  route_SkyWest_Airlines.html %}
+
+
+#### United Air Lines
+- Number of Airports: 78
+- Number of Routes: 380
+- Mean Arr Delay: -4.0139
+- Mean Dep Delay: 6.0763
+- Mean Carrier Delay: 14.5705
+- Mean Weather Delay: 1.709
+- Mean Late Aircraft Delay: 25.0573
+{% include  centrality_United_Air_Lines.html %}
+{% include  route_United_Air_Lines.html %}
+
+
+#### US Airways
+- Number of Airports: 84
+- Number of Routes: 351
+- Mean Arr Delay: 0.5104
+- Mean Dep Delay: 3.183
+- Mean Carrier Delay: 13.8995
+- Mean Weather Delay: 1.5026
+- Mean Late Aircraft Delay: 14.4317
+{% include  centrality_US_Airways.html %}
+{% include  route_US_Airways.html %}
+
+
+#### Southwest Airlines
+- Number of Airports: 69
+- Number of Routes: 959
+- Mean Arr Delay: 4.7902
+- Mean Dep Delay: 11.3448
+- Mean Carrier Delay: 12.939
+- Mean Weather Delay: 1.7841
+- Mean Late Aircraft Delay: 25.3732
+{% include  centrality_Southwest_Airlines.html %}
+{% include  route_Southwest_Airlines.html %}
+
+
+#### Mesa Airlines
+ - Number of Airports: 118
+ - Number of Routes: 419
+ - Mean Arr Delay: 2.9946
+ - Mean Dep Delay: 4.5988
+ - Mean Carrier Delay: 19.53
+ - Mean Weather Delay: 2.4514
+ - Mean Late Aircraft Delay: 21.5251
+{% include  centrality_Mesa_Airlines.html %}
+{% include  route_Mesa_Airlines.html %}
+
+
+#### ExpressJet Airlines
+- Number of Airports: 122
+- Number of Routes: 559
+- Mean Arr Delay: 6.9092
+- Mean Dep Delay: 7.7848
+- Mean Carrier Delay: 13.6902
+- Mean Weather Delay: 1.9729
+- Mean Late Aircraft Delay: 21.8362
+{% include  centrality_ExpressJet_Airlines_06_11.html %}
+{% include  route_ExpressJet_Airlines.html %}
+
+
+#### Frontier Airlines
+- Number of Airports: 54
+- Number of Routes: 133
+- Mean Arr Delay: 4.6572
+- Mean Dep Delay: 6.6031
+- Mean Carrier Delay: 10.6675
+- Mean Weather Delay: 0.8233
+- Mean Late Aircraft Delay: 24.1998
+{% include  centrality_Frontier_Airlines.html %}
+{% include  route_Frontier_Airlines.html %}
+
+#### AirTran Airways
+- Number of Airports: 66
+- Number of Routes: 363
+- Mean Arr Delay: 2.9649
+- Mean Dep Delay: 6.037
+- Mean Carrier Delay: 10.0695
+- Mean Weather Delay: 0.8456
+- Mean Late Aircraft Delay: 28.8182
+{% include  centrality_AirTran_Airways_Corporation.html %}
+{% include  route_AirTran_Airways.html %}
+
+#### Hawaiian Airlines
+- Number of Airports: 15
+- Number of Routes: 43
+- Mean Arr Delay: 0.8451
+- Mean Dep Delay: -0.2728
+- Mean Carrier Delay: 31.7755
+- Mean Weather Delay: 0.2989
+- Mean Late Aircraft Delay: 10.9867
+{% include  centrality_Hawaiian_Airlines.html %}
+{% include  route_Hawaiian_Airlines.html %}
 
