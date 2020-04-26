@@ -157,7 +157,7 @@ When starting with networks, one can lok to the tools of networks to identify th
 Using the NetworkX library, the degree centrality may be found by finding the value for (edges)/(n-1). To better understand the relation of centrality the following chart provides the scatterplot of centrality measure to percentage of airtraffic at an airport.
 
 #### Paritions and Center
-The partition of a graph can provide a peprsepctive which may better identify the significane of airports. That is, there are paritions within the graph such as an Alaska parition which may distort what the center of a graph looks like. Note the paprtitions below demonstrate there is an Alaskan partition of airports, partition 3,  which are highly connected. With this partition included, it resulted in **Seattle-Tacoma International Airport ** being the center of the network.
+The partition of a graph can provide a peprsepctive which may better identify the significane of airports. That is, there are paritions within the graph such as an Alaska parition which may distort what the center of a graph looks like. Note the paprtitions below demonstrate there is an Alaskan partition of airports, partition 3,  which are highly connected. With this partition included, it resulted in **Seattle-Tacoma International Airport** being the center of the network.
 - partition 1: 
 ['Dayton, OH: James M Cox/Dayton International', 'Tulsa, OK: Tulsa International', 'Dubuque, IA: Dubuque Regional', 'Washington, DC: Ronald Reagan Washington National', … 'Dallas, TX: Dallas Love Field']
 
