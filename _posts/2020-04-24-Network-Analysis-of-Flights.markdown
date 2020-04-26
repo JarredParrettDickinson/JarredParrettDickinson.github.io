@@ -181,10 +181,15 @@ When we remove partition 3, Alaska, the resulting center becomes **Denver Intern
 #### Takeaways
 In the two previous sections, much has been discussed from concepts of graphs to the applications of them to networks. It has been established that there are metrics by which we may measure the same things as percentage of traffic within a network by adopting centrality -  with a .88 r-squared. Further, with the discussion of partitions and center, the application of centrality finds relevance with the high value of Denver as compared to Seattle. This leads to further evidence that the main partition, as expected, is the lower-48.
 
+------------
+
 ## Network Analysis on SubNetworks - Carriers
 As seen up to this point, network analysis may be applied to the entire US flight network. However, when considering practical applications, this may not be the best approach as flight carriers may not be interested in this information as they only server specific markets. To combat this, the same tools may be applied to subnetworks which are subsets of the dataset.
 
 Within the dataset, there are 18 unique carriers each with their own interconnected networks. For the following analysis, the departure delay and arrival delay metrics have been bypassed in favor of looking into the relation of centrality with percent of network traffic and centrality and mean delay.
+
+### Takeaways
+As the data below is quite space intensive given the limited abilities of markdown and its collapsable sections, the takeaways will be discussed prior to presentation. Of the following, it can be noted that firms may be more inclined to use measures of centrality as indicators of importance for the channeling of resources. While all show a level of positive significance, some exhibit more than others. Therfore, this may be a better metric for some firms than others. 
 
 #### Network Overall
 - Number of Airports: 305
@@ -471,4 +476,10 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 **Centrality x Traffic**  
 {% include  centrality_Hawaiian_Airlines.html %}
 {% include  route_Hawaiian_Airlines.html %}
+
+------------
+
+## Next Steps
+- Match tail numbers with flight N-numbers to analyze the life and stress on aircraft
+- Employ network congestion methods to monitor network traffic. This was a shortfall of this inital approach as present, studied methods for analysis required tools and data not included in this dataset. There may be an approach with this data but it will require more analysis andalgorithmic approaches.
 
