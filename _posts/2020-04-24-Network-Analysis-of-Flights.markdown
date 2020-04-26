@@ -121,15 +121,16 @@ For my analysis, I will begin by taking a global look at the airnetwork of the U
 
 ## General Statistics
 A relatively intuitive starting point is to begin the analysis of the flight data by simply looking at the arrival and departure data for each airport. In the below figures, you can find the histograms for the variables of arrival and departure delay - note, the dataset conviently bins these variables into 15 minute sections to make plotting on historgram easy. It can be seen that the majority of time flights actually take off eariler than their CRS departure time. Futher, these flights will arrive earlier than expected on the destination side as well.
-<br>**figure 1: Departure and Arrival Histogram**
+<br />
+**figure 1: Departure and Arrival Histogram**
 ![US_ARR_DEP_DELAY](/assets/DEP_ARR_DELAY_GROUP.png)
 
 This data begins the process of understanding the data but can, in fact, be presented in a more dynamic fashion. That is, a delay will not be as taxing on the network if it occurs at a relatively small airport as comparted to a large one. The below interactive figure provides the data in the above histograms with the additon of a the perspective of the airports percentage of flgiht traffic as the color and size being mean delay at that airport.
-
-<br>**figure 2a: US Departure Delay Map**
+<br />
+**figure 2a: US Departure Delay Map**
 {% include US_DEP_MAP.html %}
-
-<br>**figure 2b: US Arrival Delay Map**
+<br />
+**figure 2b: US Arrival Delay Map**
 {% include US_ARR_MAP.html %}
 
 This may be a relatively counterintuitive idea at this point as we are analyzing these as individuals and not as a network. As this analysis is continued, it will become appearnent that the delay at Atlanta will then reverberate to the next airport given the aircraft link these two nodes.
@@ -156,12 +157,11 @@ When starting with networks, one can lok to the tools of networks to identify th
 
 #### Degree Centrality
 Using the NetworkX library, the degree centrality may be found by finding the value for (edges)/(n-1). To better understand the relation of centrality the following chart provides the scatterplot of centrality measure to percentage of airtraffic at an airport. In figure 3, there is the relation of centrality with size where size is the percent of air traffic and color is the centrality. The positive relation between the two metrics may be seen with the additional plotting below - figure 4 - with trendline. 
-<br>
+<br />
 **figure 3** US Centrality Map
-
 {% include US_CT_MAP.html %}
 
-<br>
+<br />
 **figure 4**:Centrality x Percent of Air Traffic
 {% include CT_PCT.html %}
 
