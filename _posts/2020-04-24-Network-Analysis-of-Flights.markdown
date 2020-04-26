@@ -196,7 +196,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 - Mean Late Aircraft Delay: 21.2091
 
 {% include  graph_carrier_stats_a.html %}
-{% include  graph_carrier_stats_b.html %}
+{% include  graph_carrier_stats_b (1).html %}
 
 #### Pinnacle Airlines
 - Number of Airports: 147
