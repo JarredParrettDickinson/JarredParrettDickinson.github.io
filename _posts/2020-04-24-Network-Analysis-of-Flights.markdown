@@ -136,7 +136,7 @@ This may be a relatively counterintuitive idea at this point as we are analyzing
 
 ## Network Analysis
 As stated above, it can be difficult to understanding the interconnected nature of the network without modeling and understanding importance within a graph. The following analysis will be of the US flights network with respect to graph traits. As an aside before presenting findings, I willprovide a brief vocab section on graph terms.
-<details open>
+<details>
 <summary> Graph Vocab </summary>
 <br>
 <ul>
