@@ -154,7 +154,10 @@ As stated above, it can be difficult to understanding the interconnected nature 
 When starting with networks, one can lok to the tools of networks to identify the importance of measures such as degree, center, and clustering coefficient. The questions that will be asked are what is the center of the graph, what is the most important node within the graph, are there any partitions, what is the clustering coefficient for nodes as related to degree centrality.
 
 #### Degree Centrality
-Using the NetworkX library, the degree centrality may be found by finding the value for (edges)/(n-1). To better understand the relation of centrality the following chart provides the scatterplot of centrality measure to percentage of airtraffic at an airport.
+Using the NetworkX library, the degree centrality may be found by finding the value for (edges)/(n-1). To better understand the relation of centrality the following chart provides the scatterplot of centrality measure to percentage of airtraffic at an airport. In figure 3, there is the relation of centrality with size where size is the percent of air traffic and color is the centrality. 
+#### figure 3
+
+{% include US_CT_MAP.html %}
 
 #### Paritions and Center
 The partition of a graph can provide a peprsepctive which may better identify the significane of airports. That is, there are paritions within the graph such as the Alaska paritions which may distort what the center of a graph looks like. Note the paprtitions below demonstrate there is an Alaskan partition of airports, partition 2 and 3,  which are highly connected sections. While relevant to the overall graph, when considering the amount of travel on the Alaskan partitions, a questions may be asked if they are that important. With this partition included, it resulted in **Seattle-Tacoma International Airport** being the center of the network.
