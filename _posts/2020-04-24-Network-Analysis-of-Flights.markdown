@@ -4,6 +4,10 @@ title:  "Network Analysis of 2010 US Flights -  Applied Empirical Analysis of Da
 date:   2020-04-24 3:44:00 -0500
 categories: Applied Empirical Analysis of Data
 ---
+
+# Question: The importance of a singular airport within the airport network can be determined by measuring the degree centrality, the ratio of edges in and out, of it. **TRUE**
+
+
 ## Data
 At the beginning of the Applied Empirical Analysis of Data (AEAD) class Professor Erfle tasked us with finding a dataset that both interested us and was suitable for analysis. From the start, I had an interest in flights as I had once adopted TensorFlow machine learning libraries to construct a tool to estimate flight delays and diversions on flights destined for Aspen, CO.
 
@@ -184,7 +188,7 @@ In the two previous sections, much has been discussed from concepts of graphs to
 ------------
 
 ## Network Analysis on SubNetworks - Carriers
-As seen up to this point, network analysis may be applied to the entire US flight network. However, when considering practical applications, this may not be the best approach as flight carriers may not be interested in this information as they only server specific markets. To combat this, the same tools may be applied to subnetworks which are subsets of the dataset.
+As seen up to this point, network analysis may be applied to the entire US flight network. However, when considering practical applications, this may not be the best approach as flight carriers may not be interested in this information as they only serve specific markets. To combat this, the same tools may be applied to subnetworks which are subsets of the dataset.
 
 Within the dataset, there are 18 unique carriers each with their own interconnected networks. For the following analysis, the departure delay and arrival delay metrics have been bypassed in favor of looking into the relation of centrality with percent of network traffic and centrality and mean delay.
 
