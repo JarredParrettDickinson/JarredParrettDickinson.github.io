@@ -7,6 +7,8 @@ categories: Applied Empirical Analysis of Data
 ## Data
 At the beginning of the Applied Empirical Analysis of Data (AEAD) class Professor Erfle tasked us with finding a dataset that both interested us and was suitable for analysis. From the start, I had an interest in flights as I had once adopted TensorFlow machine learning libraries to construct a tool to estimate flight delays and diversions on flights destined for Aspen, CO.
 
+{% include US_ROUTE_MAP.html %}
+
 The source of the data is available through the Bureau of Transportation Statistics (BTS) and is reported on a monthly basis under the title of[ On-Time: Reporting Carrier On-Time Performance (1987-present)](https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time " On-Time: Reporting Carrier On-Time Performance (1987-present)"). The data consists of 109 variable including geographic, temporal and indicator of events. The below section provides a complete list of the statistics descriptions. 
 
 <details>
@@ -131,4 +133,42 @@ This data begins the process of understanding the data but can, in fact, be pres
 {% include US_ARR_MAP.html %}
 
 This may be a relatively counterintuitive idea at this point as we are analyzing these as individuals and not as a network. As this analysis is continued, it will become appearnent that the delay at Atlanta will then reverberate to the next airport given the aircraft link these two nodes.
+
+## Network Analysis
+As stated above, it can be difficult to understanding the interconnected nature of the network without modeling and understanding importance within a graph. The following analysis will be of the US flights network with respect to graph traits. As an aside before presenting findings, I willprovide a brief vocab section on graph terms.
+<details open>
+<summary> Graph Vocab </summary>
+<br>
+<ul>
+<li>Node: an airport within the network</li>
+<li>Edge: flight route between two airports</li>
+<li>Degree: number of incoming and outgoing edges from a node</li>
+<li>Degree Centrality: measure that counts how many neighbors a node has</li>
+<li>Center: A vertex is central in G if its greatest distance from any other vertex is as small as possible </li>
+<li>Clustering Coefficient: clustering coefficient is a measure of the degree to which nodes in a graph tend to cluster together.</li>
+<li>Partition: the reduction of a graph to a smaller graph by partitioning its set of nodes into mutually exclusive groups</li>
+</ul>
+ <br><br>
+</details>
+
+When starting with networks, one can lok to the tools of networks to identify the importance of measures such as degree, center, and clustering coefficient. The questions that will be asked are what is the center of the graph, what is the most important node within the graph, are there any partitions, what is the clustering coefficient for nodes as related to degree centrality.
+
+#### Degree Centrality
+Using the NetworkX library, the degree centrality may be found by finding the value for (edges)/(n-1). To better understand the relation of centrality the following chart provides the scatterplot of centrality measure to percentage of airtraffic at an airport.
+
+#### Paritions and Center
+The partition of a graph can provide a peprsepctive which may better identify the significane of airports. That is, there are paritions within the graph such as an Alaska parition which may distort what the center of a graph looks like. Note the paprtitions below demonstrate there is an Alaskan partition of airports, partition 3,  which are highly connected. With this partition included, it resulted in **Seattle-Tacoma International Airport ** being the center of the network.
+- partition 1: 
+['Dayton, OH: James M Cox/Dayton International', 'Tulsa, OK: Tulsa International', 'Dubuque, IA: Dubuque Regional', 'Washington, DC: Ronald Reagan Washington National', … 'Dallas, TX: Dallas Love Field']
+
+* partition 2:
+['King Salmon, AK: King Salmon Airport', 'Anchorage, AK: Ted Stevens Anchorage International', 'Dillingham, AK: Dillingham Airport', 'Bethel, AK: Bethel Airport', 'Deadhorse, AK: Deadhorse Airport', 'Barrow, AK: Wiley Post/Will Rogers Memorial', 'Nome, AK: Nome Airport', 'Kotzebue, AK: Ralph Wien Memorial', 'Adak Island, AK: Adak', 'Kodiak, AK: Kodiak Airport']
+
+* partition 3:
+['Juneau, AK: Juneau International', 'Wrangell, AK: Wrangell Airport', 'Sitka, AK: Sitka Rocky Gutierrez', 'Ketchikan, AK: Ketchikan International', 'Yakutat, AK: Yakutat Airport', 'Cordova, AK: Merle K Mudhole Smith', 'Gustavus, AK: Gustavus Airport', 'Petersburg, AK: Petersburg James A Johnson']
+
+When we remove partition 3, Alaska, the resulting center becomes **Denver International Airport**.
+
+##### Clustering Coefficient x Degree Centrality
+
 
