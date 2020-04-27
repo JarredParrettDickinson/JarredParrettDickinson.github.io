@@ -201,7 +201,7 @@ Within the dataset, there are 18 unique carriers each with their own interconnec
 ### Takeaways
 As the data below is quite space intensive given the limited abilities of markdown and its collapsable sections, the takeaways will be discussed prior to presentation. Of the following, it can be noted that firms may be more inclined to use measures of centrality as indicators of importance for the channeling of resources. While all show a level of positive significance, some exhibit more than others. Therfore, this may be a better metric for some firms than others. 
 
-#### Network Overall
+### Network Overall
 - Number of Airports: 305
 - Number of Routes: 4622
 - Mean Arr Delay: 4.1021
@@ -216,7 +216,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  graph_carrier_stats_be.html %}
 (*note: ExpressJet Airlines Inc. (2012 - 2019) is Atlantic Southeast Airlines (1993 - 2011)*)
 
-#### Pinnacle Airlines
+### Pinnacle Airlines
 - Number of Airports: 147
 - Number of Routes: 781
 - Mean Arr Delay: 3.8666
@@ -233,7 +233,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  centrality_Pinnacle_Airlines.html %}
 {% include  route_Pinnacle_Airlines.html %}
 
-#### American Airlines
+### American Airlines
 - Number of Airports: 80
 - Number of Routes: 400
 - Mean Arr Delay: 3.8215
@@ -249,7 +249,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  centrality_American_Airlines.html %}
 {% include  route_American_Airlines.html %}
 
-#### Alaska Airlines
+### Alaska Airlines
 - Number of Airports: 53
 - Number of Routes: 181
 - Mean Arr Delay: -2.3741
@@ -267,7 +267,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_Alaska_Airlines.html %}
 
 
-#### JetBlue Airways
+### JetBlue Airways
  - Number of Airports: 50
  - Number of Routes: 259
  - Mean Arr Delay: 6.4605
@@ -283,7 +283,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_JetBlue_Airways.html %}
 
 
-#### Continental Airlines
+### Continental Airlines
 - Number of Airports: 67
 - Number of Routes: 256
 - Mean Arr Delay: 3.4017
@@ -300,7 +300,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_Continental_Air_Lines.html %}
 
 
-#### Delta Airlines
+### Delta Airlines
 - Number of Airports: 135
 - Number of Routes: 854
 - Mean Arr Delay: 5.5136
@@ -317,7 +317,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_Delta_Air_Lines.html %}
 
 
-#### American Eagle Airlines
+### American Eagle Airlines
 - Number of Airports: 139
 - Number of Routes: 436
 - Mean Arr Delay: 6.2021
@@ -334,7 +334,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_American_Eagle_Airlines.html %}
 
 
-#### PSA Airlines
+### PSA Airlines
 - Number of Airports: 113
 - Number of Routes: 728
 - Mean Arr Delay: 7.4982
@@ -350,7 +350,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_PSA_Airlines.html %}
 
 
-#### SkyWest Airlines
+### SkyWest Airlines
 - Number of Airports: 160
 - Number of Routes: 921
 - Mean Arr Delay: 6.2429
@@ -366,7 +366,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_SkyWest_Airlines.html %}
 
 
-#### United Air Lines
+### United Air Lines
 - Number of Airports: 78
 - Number of Routes: 380
 - Mean Arr Delay: -4.0139
@@ -383,7 +383,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_United_Air_Lines.html %}
 
 
-#### US Airways
+### US Airways
 - Number of Airports: 84
 - Number of Routes: 351
 - Mean Arr Delay: 0.5104
@@ -400,7 +400,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_US_Airways.html %}
 
 
-#### Southwest Airlines
+### Southwest Airlines
 - Number of Airports: 69
 - Number of Routes: 959
 - Mean Arr Delay: 4.7902
@@ -416,7 +416,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_Southwest_Airlines.html %}
 
 
-#### Mesa Airlines
+### Mesa Airlines
  - Number of Airports: 118
  - Number of Routes: 419
  - Mean Arr Delay: 2.9946
@@ -433,7 +433,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_Mesa_Airlines.html %}
 
 
-#### ExpressJet Airlines
+### ExpressJet Airlines
 - Number of Airports: 122
 - Number of Routes: 559
 - Mean Arr Delay: 6.9092
@@ -449,7 +449,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  route_ExpressJet_Airlines.html %}
 
 
-#### Frontier Airlines
+### Frontier Airlines
 - Number of Airports: 54
 - Number of Routes: 133
 - Mean Arr Delay: 4.6572
@@ -464,7 +464,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  centrality_Frontier_Airlines.html %}
 {% include  route_Frontier_Airlines.html %}
 
-#### AirTran Airways
+### AirTran Airways
 - Number of Airports: 66
 - Number of Routes: 363
 - Mean Arr Delay: 2.9649
@@ -479,7 +479,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 {% include  centrality_AirTran_Airways_Corporation.html %}
 {% include  route_AirTran_Airways.html %}
 
-#### Hawaiian Airlines
+### Hawaiian Airlines
 - Number of Airports: 15
 - Number of Routes: 43
 - Mean Arr Delay: 0.8451
