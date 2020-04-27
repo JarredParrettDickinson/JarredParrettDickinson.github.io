@@ -207,6 +207,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 
 {% include  graph_carrier_stats_a.html %}
 {% include  graph_carrier_stats_be.html %}
+(*note: ExpressJet Airlines Inc. (2012 - 2019) is Atlantic Southeast Airlines (1993 - 2011)*)
 
 #### Pinnacle Airlines
 - Number of Airports: 147
