@@ -148,6 +148,7 @@ As stated above, it can be difficult to understanding the interconnected nature 
 <li>Node: an airport within the network</li>
 <li>Edge: flight route between two airports</li>
 <li>Degree: number of incoming and outgoing edges from a node</li>
+ <li>Density: is a measure of the proportion of possible ties which are actualized among the members of a network</li>
 <li>Degree Centrality: measure that counts how many neighbors a node has</li>
 <li>Center: A vertex is central in G if its greatest distance from any other vertex is as small as possible </li>
 <li>Clustering Coefficient: clustering coefficient is a measure of the degree to which nodes in a graph tend to cluster together.</li>
@@ -204,6 +205,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 2.3706
 - Mean Late Aircraft Delay: 21.2091
 - R-Squared traffic x centrentality: .88
+- Density: 0.0506
 
 {% include  graph_carrier_stats_a.html %}
 {% include  graph_carrier_stats_be.html %}
