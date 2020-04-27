@@ -217,6 +217,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 2.5398
 - Mean Late Aircraft Delay: 19.6674
 - R-Squared traffic x centrentality: .88
+- Density: 0.0372
 
 
 
@@ -233,7 +234,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 3.6168
 - Mean Late Aircraft Delay: 17.2126
 - R-Squared traffic x centrentality: .77
-
+- Density: 0.0636
 
 
 **Centrality x Traffic**  
@@ -249,6 +250,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 1.8455
 - Mean Late Aircraft Delay: 16.1838
 - R-Squared traffic x centrentality: .92
+- Density: 0.0675
 
 
 
@@ -266,7 +268,7 @@ As the data below is quite space intensive given the limited abilities of markdo
  - Mean Weather Delay: 1.2981
  - Mean Late Aircraft Delay: 21.7439
  - R-Squared traffic x centrentality: .96
- 
+ - Density: 0.1102
  
 **Centrality x Traffic**  
 {% include  centrality_JetBlue_Airways.html %}
@@ -282,7 +284,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 2.3685
 - Mean Late Aircraft Delay: 11.7919
 - R-Squared traffic x centrentality: .96
-
+- Density: 0.0592
 
 
 **Centrality x Traffic**  
@@ -299,7 +301,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 2.549
 - Mean Late Aircraft Delay: 17.2881
 - R-Squared traffic x centrentality: .88
-
+- Density: 0.0481
 
 
 **Centrality x Traffic**  
@@ -316,7 +318,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 4.0574
 - Mean Late Aircraft Delay: 20.1839
 - R-Squared traffic x centrentality: .97
-
+- Density: 0.0227
 
 
 **Centrality x Traffic**  
@@ -333,7 +335,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 6.8779
 - Mean Late Aircraft Delay: 4.4049
 - R-Squared traffic x centrentality: .72
-
+- Density: 0.0593
 
 **Centrality x Traffic**  
 {% include  centrality_PSA_Airlines.html %}
@@ -349,7 +351,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 1.3412
 - Mean Late Aircraft Delay: 27.8823
 - R-Squared traffic x centrentality: .817
-
+- Density: 0.0381
 
 **Centrality x Traffic**  
 {% include  centrality_SkyWest_Airlines.html %}
@@ -365,6 +367,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 1.709
 - Mean Late Aircraft Delay: 25.0573
 - R-Squared traffic x centrentality: .95
+- Density: 0.0666
 
 
 **Centrality x Traffic**  
@@ -381,6 +384,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 1.5026
 - Mean Late Aircraft Delay: 14.4317
 - R-Squared traffic x centrentality: .97
+- Density: 0.0508
 
 
 **Centrality x Traffic**  
@@ -397,7 +401,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 1.7841
 - Mean Late Aircraft Delay: 25.3732
 - R-Squared traffic x centrentality: .85
-
+- Density: 0.2046
 
 **Centrality x Traffic**  
 {% include  centrality_Southwest_Airlines.html %}
@@ -413,7 +417,8 @@ As the data below is quite space intensive given the limited abilities of markdo
  - Mean Weather Delay: 2.4514
  - Mean Late Aircraft Delay: 21.5251
  - R-Squared traffic x centrentality: .72
- 
+ - Density: 0.0313
+
  
 **Centrality x Traffic**  
 {% include  centrality_Mesa_Airlines.html %}
@@ -429,7 +434,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 1.9729
 - Mean Late Aircraft Delay: 21.8362
 - R-Squared traffic x centrentality: .84
-
+- Density: 0.0383
 
 **Centrality x Traffic**  
 {% include  centrality_ExpressJet_Airlines_06_11.html %}
@@ -445,7 +450,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 0.8233
 - Mean Late Aircraft Delay: 24.1998
 - R-Squared traffic x centrentality: .95
-
+- Density: 0.0496
 
 **Centrality x Traffic**  
 {% include  centrality_Frontier_Airlines.html %}
@@ -460,7 +465,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 0.8456
 - Mean Late Aircraft Delay: 28.8182
 - R-Squared traffic x centrentality: .83
-
+- Density: 0.0848
 
 **Centrality x Traffic**  
 {% include  centrality_AirTran_Airways_Corporation.html %}
@@ -475,7 +480,7 @@ As the data below is quite space intensive given the limited abilities of markdo
 - Mean Weather Delay: 0.2989
 - Mean Late Aircraft Delay: 10.9867
 - R-Squared traffic x centrentality: .88
-
+- Density: 0.2095
 
 **Centrality x Traffic**  
 {% include  centrality_Hawaiian_Airlines.html %}
