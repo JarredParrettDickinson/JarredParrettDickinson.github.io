@@ -88,7 +88,7 @@ The source of the data is available through the Bureau of Transportation Statist
 <br><br>
 </details>
 
-**Data Sample**
+**Data Sample BTS**
 
 <iframe src="https://drive.google.com/file/d/1aTXzz46-4HejgXTtE0wHAQkailUbZTkq/preview?usp=sharing" width="100%" height="800em"></iframe> 
 
