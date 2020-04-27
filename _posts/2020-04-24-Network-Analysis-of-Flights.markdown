@@ -89,7 +89,7 @@ The source of the data is available through the Bureau of Transportation Statist
 </details>
 
 **Data Sample**
-<iframe src="https://docs.google.com/spreadsheets/d/1TcLigFHrFpcP9NslaEcGSPwW671nml9HJwsRvx9EvoQ/edit?usp=sharing" width="100%" height="4000"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1TcLigFHrFpcP9NslaEcGSPwW671nml9HJwsRvx9EvoQ/edit?usp=sharing" width="100%" height=”800em”</iframe>
 
 While the data did include names and information on flights including origin and destination, it did not provide the longitude and latitude location information for these airports. To cope with this, the [OpenFlights](https://openflights.org/data.html "OpenFlights") data set was used to get airport location information. Note, the following analysis could be adopted for the world network with relatively little alteration. The variable information for the OpenFlights dataset may be found in the below expandable section. If you visit both sections, you will notice there are many variables that overlap - e.g. IATA.
 
