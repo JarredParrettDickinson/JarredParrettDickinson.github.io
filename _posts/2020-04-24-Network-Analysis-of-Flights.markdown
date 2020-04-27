@@ -199,6 +199,8 @@ As seen up to this point, network analysis may be applied to the entire US fligh
 Within the dataset, there are 18 unique carriers each with their own interconnected networks. For the following analysis, the departure delay and arrival delay metrics have been bypassed in favor of looking into the relation of centrality with percent of network traffic and centrality and mean delay.
 
 ### Takeaways
+Question: If carriers would like to reduce overall network traffic, should they look to centrality?
+
 As the data below is quite space intensive given the limited abilities of markdown and its collapsable sections, the takeaways will be discussed prior to presentation. Of the following, it can be noted that firms may be more inclined to use measures of centrality as indicators of importance for the channeling of resources. While all show a level of positive significance, some exhibit more than others. Therfore, this may be a better metric for some firms than others. 
 
 ### Network Overall
