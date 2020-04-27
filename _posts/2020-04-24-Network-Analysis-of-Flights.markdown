@@ -5,7 +5,7 @@ date:   2020-04-24 3:44:00 -0500
 categories: Applied Empirical Analysis of Data
 ---
 
-# Question: The importance of a singular airport within the airport network can be determined by measuring the degree centrality, the ratio of edges in and out, of it. **TRUE**
+Question: The importance of a singular airport within the airport network can be determined by measuring the degree centrality, the ratio of edges in and out, of it. **TRUE**
 
 
 ## Data
