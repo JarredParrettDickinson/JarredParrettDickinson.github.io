@@ -5,8 +5,7 @@ date:   2020-04-24 3:44:00 -0500
 categories: Applied Empirical Analysis of Data
 ---
 
-Question: The importance of a singular airport within the airport network can be determined by measuring the degree centrality, the ratio of edges in and out, of it. **TRUE**
-
+Question: The importance of a singular airport within the airport network can be determined by measuring the degree centrality, the ratio of edges in and out, of it. 
 
 ## Data
 At the beginning of the Applied Empirical Analysis of Data (AEAD) class Professor Erfle tasked us with finding a dataset that both interested us and was suitable for analysis. From the start, I had an interest in flights as I had once adopted TensorFlow machine learning libraries to construct a tool to estimate flight delays and diversions on flights destined for Aspen, CO.
