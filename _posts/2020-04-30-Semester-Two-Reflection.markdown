@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Semester Two Reflection"
-date:   2019-12-14 2:45:00 -0500
+date:   2020-04-30 2:45:00 -0500
 categories: seminar civics reflection
 ---
 
