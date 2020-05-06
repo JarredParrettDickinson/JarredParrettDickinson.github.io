@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Visualizing NJ AG Data"
+date:   2020-05-06 2:45:00 -0500
+categories: AG Data
+---
+
+Since leaving a position at an agriculture organization prior to attending Dickinson College, I found my interest has only grown within the space of agriculture. With that, I recently discovered what is a fun new hobby of data science after taking a class on it. Therefore, I thought why not marry the two and visualize AG data by county. Through using AG data from the USDA census and survey, I created the below notebook to employ a call to the USDA FTP server and retrieve economic data and then clean it for the display on a Plotly map. The notebook offers interactive widgets for the selection of data but does require some tinkering to update the plot. 
+
+<script src="https://gist.github.com/JarredParrettDickinson/3a8c6270774e3cdde75b11f4576a2251.js"></script> 
