@@ -4,6 +4,7 @@ title:  "Visualizing NJ AG Data"
 date:   2020-05-06 2:45:00 -0500
 categories: AG Data
 ---
+**This post has been updated with a link to a new GIST which now provides a tool by which all states may be visualized**
 
 ### AG DATA
 Since leaving a position at an agriculture organization prior to attending Dickinson College, I found my interest has only grown within the space of agriculture. With that, I recently discovered what is a fun new hobby of data science after taking a class on it. Therefore, I thought why not marry the two and visualize AG data by county. Through using AG data from the USDA census and survey, I created the below notebook to employ a call to the USDA FTP server and retrieve economic data and then clean it for the display on a Plotly map. The notebook offers interactive widgets for the selection of data but does require some tinkering to update the plot. 
@@ -289,4 +290,4 @@ You can see, in the below chart, an example of **AG LAND, CROPLAND, (EXCL HARVES
 ### See and explore for yourself!
 You can see the notebook below and by clicking the line `open in CoLab` it will take you to your own notebook through google to run. If you have any questions, please feel free to email me. 
 
-<script src="https://gist.github.com/JarredParrettDickinson/06bd0bac2136b2d929d50f7aa7912618.js"></script>
+<script src="https://gist.github.com/JarredParrettDickinson/635ee6c5e16b02497bee62a18950494e.js"></script>
