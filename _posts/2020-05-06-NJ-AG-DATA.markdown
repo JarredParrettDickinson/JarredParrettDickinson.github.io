@@ -289,4 +289,4 @@ You can see, in the below chart, an example of **AG LAND, CROPLAND, (EXCL HARVES
 ### See and explore for yourself!
 You can see the notebook below and by clicking the line `open in CoLab` it will take you to your own notebook through google to run. If you have any questions, please feel free to email me. 
 
-<script src="https://gist.github.com/JarredParrettDickinson/f630d3df562aa0d0cda796a30a9a4e55.js"></script>
+<script src="https://gist.github.com/JarredParrettDickinson/47e3061085f4e7ba7b335214b85145f8.js"></script>
