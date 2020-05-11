@@ -2,8 +2,8 @@
 layout: post
 title:  "Jobs & Gates or Torvald & Stallman?"
 date:   2019-09-07 3:44:00 -0500
-categories: seminar
 visable: 1
+categories: seminar
 ---
 In a time where large firms are constantly competing to raise their bottom line and the battle for every ounce of profit, there does not seem to be an argument for them going out of their way to generate non-proprietary projects. However, the reality is quite the contrary, as we discussed within the class; the remarkable nature of the work by GNU and Stallman is that they have championed basic freedoms of a movement. A movement that is the foundation of much of today’s computing architecture. 
 
