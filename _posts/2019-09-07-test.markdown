@@ -15,6 +15,8 @@ categories: seminar
 ## CATTLE, COWS, BEEF - OPERATIONS WITH INVENTORY
 The variable **CATTLE, COWS, BEEF - OPERATIONS WITH INVENTORY** is collected on a census basis with subcategories to classify farms. That is, the subcategories are the buckets of the head of cattle: (1-9), (10-19), (20-49), (50-99), (100-199), (200-499), and not specified. The below charts and maps are provided in these categories beginning with a chart of the changes in years and then a map for each year.**
 
+
+test test
 ---
 ### 1-9 Head of Cattle
 {% include INVENTORY_OF_BEEF_COWS__1_TO_9_HEAD_GRAPH.html %}
