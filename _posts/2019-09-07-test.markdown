@@ -13,10 +13,27 @@ categories: seminar
 
   
 ## CATTLE, COWS, BEEF - OPERATIONS WITH INVENTORY
-The variable **CATTLE, COWS, BEEF - OPERATIONS WITH INVENTORY** is collected on a census basis with subcategories to classify farms. That is, the subcategories are the buckets of the head of cattle: (1-9), (10-19), (20-49), (50-99), (100-199), (200-499), and not specified. The below charts and maps are provided in these categories beginning with a chart of the changes in years and then a map for each year.**
+The variable **CATTLE, COWS, BEEF - OPERATIONS WITH INVENTORY** is collected on a census basis with subcategories to classify farms. That is, the subcategories are the buckets of the head of cattle: (1-9), (10-19), (20-49), (50-99), (100-199), (200-499), and not specified. The below charts and maps are provided in these categories beginning with a chart of the changes in years and then a map for each year. Note, the value reflected for a county is the number of farms within that bucket.
 
-
-test test
 ---
 ### 1-9 Head of Cattle
 {% include INVENTORY_OF_BEEF_COWS__1_TO_9_HEAD_GRAPH.html %}
+---
+### 10-19 Head of Cattle
+{% include INVENTORY_OF_BEEF_COWS__10_TO_19_HEAD_GRAPH.html %}
+---
+### 20-49 Head of Cattle
+{% include INVENTORY_OF_BEEF_COWS__20_TO_49_HEAD_GRAPH.html %}
+---
+### 50-99 Head of Cattle
+{% include INVENTORY_OF_BEEF_COWS__50_TO_99_HEAD_GRAPH.html %}
+---
+### 100-199 Head of Cattle
+{% include INVENTORY_OF_BEEF_COWS__100_TO_199_HEAD_GRAPH.html %}
+---
+### 200-499 Head of Cattle
+{% include INVENTORY_OF_BEEF_COWS__200_TO_499_HEAD_GRAPH.html %}
+---
+### Not Specified Head of Cattle
+{% include NOT_SPECIFIED_GRAPH.html %}
+---
