@@ -18,22 +18,67 @@ The variable **CATTLE, COWS, BEEF - OPERATIONS WITH INVENTORY** is collected on 
 ---
 ### 1-9 Head of Cattle
 {% include INVENTORY_OF_BEEF_COWS__1_TO_9_HEAD_GRAPH.html %}
+#### 2002
+{% include 2002_INVENTORY_OF_BEEF_COWS__1_TO_9_HEAD_map.html %}
+#### 2007
+{% include 2007_INVENTORY_OF_BEEF_COWS__1_TO_9_HEAD_map.html %}
+#### 2012
+{% include 2012_INVENTORY_OF_BEEF_COWS__1_TO_9_HEAD_map.html %}
+#### 2017
+{% include 2017_INVENTORY_OF_BEEF_COWS__1_TO_9_HEAD_map.html %}
+
 ---
 ### 10-19 Head of Cattle
 {% include INVENTORY_OF_BEEF_COWS__10_TO_19_HEAD_GRAPH.html %}
+#### 2002
+{% include 2002_INVENTORY_OF_BEEF_COWS__10_TO_19_HEAD_map.html %}
+#### 2007
+{% include 2007_INVENTORY_OF_BEEF_COWS__10_TO_19_HEAD_map.html %}
+#### 2012
+{% include 2012_INVENTORY_OF_BEEF_COWS__10_TO_19_HEAD_map.html %}
+#### 2017
+{% include 2017_INVENTORY_OF_BEEF_COWS__10_TO_19_HEAD_map.html %}
+
 ---
 ### 20-49 Head of Cattle
 {% include INVENTORY_OF_BEEF_COWS__20_TO_49_HEAD_GRAPH.html %}
+#### 2002
+{% include 2002_INVENTORY_OF_BEEF_COWS__20_TO_49_HEAD_map.html %}
+#### 2007
+{% include 2007_INVENTORY_OF_BEEF_COWS__20_TO_49_HEAD_map.html %}
+#### 2012
+{% include 2012_INVENTORY_OF_BEEF_COWS__20_TO_49_HEAD_map.html %}
+#### 2017
+{% include 2017_INVENTORY_OF_BEEF_COWS__20_TO_49_HEAD_map.html %}
+
 ---
 ### 50-99 Head of Cattle
 {% include INVENTORY_OF_BEEF_COWS__50_TO_99_HEAD_GRAPH.html %}
+#### 2002
+{% include 2002_INVENTORY_OF_BEEF_COWS__50_TO_99_HEAD_map.html %}
+#### 2007
+{% include 2007_INVENTORY_OF_BEEF_COWS__50_TO_99_HEAD_map.html %}
+#### 2012
+{% include 2012_INVENTORY_OF_BEEF_COWS__50_TO_99_HEAD_map.html %}
+#### 2017
+{% include 2017_INVENTORY_OF_BEEF_COWS__50_TO_99_HEAD_map.html %}
+
 ---
 ### 100-199 Head of Cattle
 {% include INVENTORY_OF_BEEF_COWS__100_TO_199_HEAD_GRAPH.html %}
+#### 2002
+{% include 2002_INVENTORY_OF_BEEF_COWS__100_TO_199_HEAD_map.html %}
+#### 2007
+{% include 2007_INVENTORY_OF_BEEF_COWS__100_TO_199_HEAD_map.html %}
+#### 2012
+{% include 2012_INVENTORY_OF_BEEF_COWS__100_TO_199_HEAD_map.html %}
+#### 2017
+{% include 2017_INVENTORY_OF_BEEF_COWS__100_TO_199_HEAD_map.html %}
+
 ---
 ### 200-499 Head of Cattle
 {% include INVENTORY_OF_BEEF_COWS__200_TO_499_HEAD_GRAPH.html %}
----
-### Not Specified Head of Cattle
-{% include NOT_SPECIFIED_GRAPH.html %}
+#### 2002
+{% include 2002_INVENTORY_OF_BEEF_COWS__200_TO_499_HEAD_map.html %}
+
 ---
