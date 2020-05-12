@@ -17,3 +17,4 @@ The variable **CATTLE, COWS, BEEF - OPERATIONS WITH INVENTORY** is collected on 
 
 ---
 ### 1-9 Head of Cattle
+{% include INVENTORY_OF_BEEF_COWS__1_TO_9_HEAD_GRAPH.html %}
