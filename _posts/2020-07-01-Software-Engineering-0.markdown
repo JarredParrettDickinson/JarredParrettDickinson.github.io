@@ -6,4 +6,5 @@ categories: Software Engineering
 ---
 With college coming to a somewhat anticlimactic end, it was odd to not have known the last day I would spend on the Dickinson campus and physically among so many thoughtful and committed faculty members. With downtime before beginning work, I am thinking back to the days within classes where professors spoke of the formative papers that shaped the computer science domain; among those papers are the names of some of the most notable computer scientists such as Dijkstra and Hoare. While nearly every student has heard these names in lore, we often never found ourselves reading their work - rather we learned of the concepts and contributions of it. In an effort to continue my computer science learning, I decided that why not take the time to read their work and better understand what brought us to where we are in the field today. Please take a moment to check out the infographic-thing I put together for <em>On the Criteria To Be Used in Decomposing Systems into Modules</em> by D.L. Parnas.
 
-<iframe src="https://drive.google.com/file/d/1GESkjYJ8eZuP6LbhiTEgClERVw5ZlzoM/preview?usp=sharing" width="100%" height="800em"></iframe>
+![infographic](/assets/infographic.png)
+
