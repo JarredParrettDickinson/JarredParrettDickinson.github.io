@@ -5,7 +5,7 @@ date:   2021-01-31 2:45:00 -0500
 categories: Running
 ---
 
-If the title got you here, then I am sorry there is nothing about tech in this piece, but it is a race report on my most recent race in West Orange, New Jersey (NJ) and a bit about me. On January 16th, I took to the hills of Northern NJ in the South Mountain Reservation to run the [Frosty Fat Sass: 6-hour](https://ultrasignup.com/register.aspx?did=80681), a race to raise funds for the [South Mountain Conservancy](https://www.somocon.org/). This one was interesting because it was considered semi-virtual meaning, for the competitors, they marked the trail and told us there were four days to get out there and run. Did I mention it had rained the previous 24 hours? So it was less of running on trail and more of running in mud and creeks.
+If the title got you here, then I am sorry there is nothing about tech in this piece, but it is a race report on my most recent race in West Orange, New Jersey (NJ) and a bit about me. On January 16th, I took to the hills of Northern NJ in the South Mountain Reservation to run the [Frosty Fat Sass: 6-hour](https://ultrasignup.com/register.aspx?did=80681), a race to raise funds for the [South Mountain Conservancy](https://www.somocon.org/). This one was interesting because it was considered semi-virtual; meaning, for the competitors, they marked the trail and told us there were four days to get out there and run. Did I mention it had rained the previous 24 hours? So it was less of running on trail and more of running in mud and creeks.
 
 
 ![](/assets/JarredRunOnTrailForBlog.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;" height="50%" width="50%"}
