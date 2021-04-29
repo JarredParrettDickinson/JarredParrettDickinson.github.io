@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Kafka and ? Useful links"
+date:   2021-04-28 2:45:00 -0500
+categories: Kafka
+---
+
+[Designing ETL Pipelines with Structured Streaming and Delta Lake— How to Architect Things Right](https://www.youtube.com/watch?v=eOhAzjf__iQ&ab_channel=Databricks)
