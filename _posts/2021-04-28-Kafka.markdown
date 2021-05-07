@@ -6,8 +6,8 @@ categories: Kafka
 ---
 Videos:
 - [Designing ETL Pipelines with Structured Streaming and Delta Lake— How to Architect Things Right](https://www.youtube.com/watch?v=eOhAzjf__iQ&ab_channel=Databricks)
-- [Azure Event Hubs for Apache Kafka | Azure Friday](https://www.youtube.com/watch?v=m3UEDhVYc-Q&t=751s&ab_channel=MicrosoftDeveloper)
 - [Recipes for Running Spark Streaming Applications in Production](https://databricks.com/session/recipes-for-running-spark-streaming-applications-in-production)
+- [Hands On With Spark: Creating A Fast Data Pipeline With Structured Streaming And Spark Streaming](https://www.youtube.com/watch?v=nBHfOU4YieY&ab_channel=Lightbend)
 
 Articles:
 - [How to Join Static Data with Streaming Data (DStream) in Spark](https://hadoopsters.com/2017/11/26/how-to-join-static-data-with-streaming-data-dstream-in-spark/)
